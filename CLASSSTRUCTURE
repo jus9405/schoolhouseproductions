@@ -1,0 +1,58 @@
+--------------------------------------------------------------------------------------------
+|IF YOU CHANGE THIS LAYOUT BEFORE OUR MEETING ON 2008-03-12, ADD YOUR NAME AND OPTIONALLY  |
+|USERNAME RIGHT BELOW THE TITLE BELOW. INCLUE YOUR EMAIL ADDRESS AND INCREMENT THE VERSION |
+|NUMBER BY 0.1. THE DATE/TIME IS WRITTEN IN YYYYMMDDHHSS FORMAT.                           |
+--------------------------------------------------------------------------------------------
+
+School House Productions Website Class Layout
+Draft 0.1 - 200803070209 : Parent5446 (Tyler Romeo) <tylerromeo@gmail.com>
+
+*Straight Lines represent the direction of the request. (If a straight line has arrows on both sides, information and requests
+ travel in both directions.)
+*Dotted Lines represent inheritance.
+*All items in the Models category also have a connection to the database on the server.
+
+
+                                            -------------Controllers------------------
+                                           |                                         |
+           />>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SchoolHouseProductions           |
+          /                                |           /              \              |
+         /                                 |          /                \             |
+        /                                  |         \/                \/            |
+       /                                   |    StaticPage          DynamicPage      |
+      /                                    |    /\     \              /\    \        |
+     /                                     -----/-------\-------------/------\--------
+    /           /<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<         \           /        \
+   /           /                                          \         /          \
+  /           |          /<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\<<<<<<<<            \
+ |            |         /                                   \                    \
+ |            |        /                                     \>>>>>>\             \
+ /\         --|-------/------------Models------------------------    \             >>>>>>>>>>>>>>>>>>>>\
+ |          |  \     \/                                         |     \                                 \
+ |          |   \     Show >>>\                                 |      \                                 \
+ |          |    \       /\    \>> Video>>>>\                   |       \                                 \
+ |          |     \       \                  \>>> Comment List  |        |                                 \
+ |          |      \       \                                    |        |                                  \
+ |          |       \       \                                   |        |                                   |
+ |          |        \       \                                  |        |                                   |
+ |          |         \>>>>> Company                            |        |                                   |
+ |          |                                                   |        |>>>>>>>>>>>>>>>>>>|                 \
+ |          -----------------------------------------------------        |                  |                  \
+ /\                                                                       \                  \                  \
+ |                                                                         \                  \                  \
+ |                                                                      ----\------------------\--Views-----------\-----------
+ |                                                                      |    |          ........|.........         \         |
+ |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\                           |    |       Page...    |        .          \        |
+                                             \                          |     \      .     ..... \        .          \       |
+                                              \                         |     \/     .         . \/        .         \/      |
+                                               \                        |     DescPage           ShowPage   ......VideoPage  |
+                                                \                       |      |                   |                 |       |
+                                                 \                      -------|-------------------|-----------------|--------
+                                                  \                            |                   |                 |
+                                                   \                          /                   /                 /
+                                                    \                        /                   /                 /
+                                                     \                      /                   /                 /
+                                                      \                    \/                  /                 /
+                                                    -------------------------------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+                                                    |         USER CLIENT         |
+                                                    -------------------------------
