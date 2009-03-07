@@ -1,0 +1,14 @@
+2008-03-07  Tyler Romeo  <tylerromeo@gmail.com>
+
+    Added CLASSSTRUCTURE to root directory. All members feel free to look and edit (but read instructions on top of file).
+
+    * schoolhouseproductions/settings.py: Changed time zone, DATABASE_ENGINE constant, and DATABASE_NAME constant.
+
+2008-03-07  Kenley Cheung  <ken@lordkenthegreat.com>
+
+    Added video application to schoolhouseproductions/video directory.
+
+2008-03-07  Tyler Romeo  <tylerromeo@gmail.com>
+
+    Created separate application and public_html directory (latter not showing up on GitHub).
+    Initiated Django project in the schoolhouseproductions directory.
