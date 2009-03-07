@@ -1,5 +1,8 @@
 # Django settings for schoolhouseproductions project.
 
+# First import settings_local.
+import settings_local
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -9,12 +12,14 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-DATABASE_ENGINE = 'mysql'                # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-DATABASE_NAME = 'schoolhouseproductions' # Or path to database file if using sqlite3.
-DATABASE_USER = ''                       # Not used with sqlite3.
-DATABASE_PASSWORD = ''                   # Not used with sqlite3.
-DATABASE_HOST = ''                       # Set to empty string for localhost. Not used with sqlite3.
-DATABASE_PORT = ''                       # Set to empty string for default. Not used with sqlite3.
+# Commenting out database section (place in settings_local.py in the same directory as this file.
+# Use sqlite3 for testing purposes for now.
+#DATABASE_ENGINE = 'mysql'                # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+#DATABASE_NAME = 'schoolhouseproductions' # Or path to database file if using sqlite3.
+#DATABASE_USER = ''                       # Not used with sqlite3.
+#DATABASE_PASSWORD = ''                   # Not used with sqlite3.
+#DATABASE_HOST = ''                       # Set to empty string for localhost. Not used with sqlite3.
+#DATABASE_PORT = ''                       # Set to empty string for default. Not used with sqlite3.
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -77,4 +82,5 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
+    'django.contrib.comments',
 )
