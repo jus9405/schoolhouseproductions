@@ -1,5 +1,13 @@
-Things to do...
+TODO LIST:
 
-Create HTML pages for video player.  (Use Flowplayer/jQuery?)
-Implement video-handling logic.
+Front End
+    *Generate overall site navigation and layout.
+    *Create graphic, etc. for the site (Steve)
+    *Create Django templates from the HTML designs.
+    *Create HTML pages for video player.  (Use Flowplayer/jQuery?)
+Back End
+    *Complete class structure and separation of MVC.
+    *Implement video-handling logic.
+    *Create views necessary to combine videos and comments into the templates.
 
+Debug
