@@ -1,0 +1,23 @@
+Proposed urls for things.
+
+account/edit
+        login
+        logout
+        openid (?)
+        api (?)
+        connect (?)
+api/ (?)
+upload (Just an endpoint)
+video/[number]
+              /comments
+      popular
+      recent
+      most_discussed
+comment/post
+       /moderate
+
+Show-related urls (a catch-all regex)
+[name]/[episode number]
+                       /comments
+                       /edit
+      /edit
